@@ -1,0 +1,16 @@
+---
+const props = Astro.props;
+---
+
+<ul role="list" class="sns-card-grid">
+  <slot />
+</ul>
+
+<style>
+.sns-card-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(50px, 125px));
+  gap: 1rem;
+  padding: 0;
+}
+</style>

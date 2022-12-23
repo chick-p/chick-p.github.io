@@ -1,0 +1,76 @@
+---
+export interface Props {
+  content: {
+    title: string;
+  }
+}
+
+const { content } = Astro.props;
+---
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.ico" />
+    <meta name="generator" content={Astro.generator} />
+    <title>{content.title}</title>
+  </head>
+  <body>
+    <main class="main">
+      <h1 class="title-gradient">{content.title}</h1>
+      <slot />
+    </main>
+  </body>
+</html>
+
+<style is:global>
+:root {
+  --accent: 124, 58, 237;
+  --accent-gradient: linear-gradient(90deg, #4158D0, #ef3d81 80%);
+}
+html {
+  font-size: 16px;
+  font-family: system-ui, sans-serif;
+  background-color: #F6F6F6;
+}
+
+.main {
+  margin: auto;
+  padding: 1rem;
+  max-width: 60ch;
+}
+
+h1 {
+  font-size: 2rem;
+  font-weight: 800;
+  margin: 0;
+}
+
+h2 {
+  font-size: 1.5rem;
+  font-weight: 800;
+  margin: 0;
+}
+
+.main li:not([class]) + li:not([class]) {
+  margin-top: 0.5rem;
+}
+
+.main * + * {
+  margin-top: 1.5rem;
+}
+
+.no-margin-top {
+  margin-top: 0;
+}
+
+</style>
+
+<style>
+.title-gradient {
+  background: var(--accent-gradient);
+  background: -webkit-linear-gradient(0deg, #4158D0, #ef3d81 30%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+</style>
