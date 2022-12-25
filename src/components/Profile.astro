@@ -1,0 +1,37 @@
+---
+import { Image } from "@astrojs/image/components";
+import profile from "../assets/profile.png";
+
+export interface Props {
+  name: string;
+}
+
+const { name } = Astro.props;
+
+---
+
+<div class="profile">
+  <div class="profile-image">
+    <Image src={profile} width="75" height="75" alt="profile picture" format="png" class="no-margin-top" />
+  </div>
+  <div class="profile-resume no-margin-top">
+    <div class="profile-resume-name">{name}</div>
+    <div class="profile-resume-details no-margin-top">
+      <slot />
+    </div>
+  </div>
+</div>
+
+<style>
+.profile {
+  display: flex;
+}
+
+.profile-resume {
+  padding: 0 0 0 2rem;
+}
+
+.profile-resume-name {
+  font-weight: 800;
+}
+</style>
