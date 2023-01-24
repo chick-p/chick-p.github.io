@@ -6,7 +6,6 @@ export default defineConfig({
   site: `https://www.chick-p.work/`,
   base: `/`,
   markdown: {
-    extendDefaultPlugins: true,
   },
   integrations: [mdx(), image()],
 });
