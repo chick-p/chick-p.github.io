@@ -13,6 +13,6 @@
   "dependencies": {
     "@astrojs/image": "^0.13.1",
     "@astrojs/mdx": "^0.15.1",
-    "astro": "^2.0.8"
+    "astro": "^2.0.9"
   }
 }
