@@ -14,3 +14,8 @@ updates:
       interval: "daily"
     assignees:
       - "chick-p"
+    groups:
+      astro:
+        patterns:
+          - "astro"
+          - "@astrojs/*"
