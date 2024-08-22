@@ -2,6 +2,7 @@
 dist/
 .output/
 .vscode/
+.next/
 
 # dependencies
 node_modules/
