@@ -9,6 +9,7 @@
     "start": "next start"
   },
   "dependencies": {
+    "@iconify/react": "^5.0.2",
     "@mdx-js/loader": "^3.0.1",
     "@mdx-js/react": "^3.0.1",
     "@types/mdx": "^2.0.13",

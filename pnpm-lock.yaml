@@ -5,6 +5,9 @@ settings:
   excludeLinksFromLockfile: false
 
 dependencies:
+  '@iconify/react':
+    specifier: ^5.0.2
+    version: 5.0.2(react@18.2.0)
   '@mdx-js/loader':
     specifier: ^3.0.1
     version: 3.0.1(webpack@5.93.0)
@@ -36,6 +39,19 @@ devDependencies:
     version: 5.5.4
 
 packages:
+
+  /@iconify/react@5.0.2(react@18.2.0):
+    resolution: {integrity: sha512-wtmstbYlEbo4NDxFxBJkhkf9gJBDqMGr7FaqLrAUMneRV3Z+fVHLJjOhWbkAF8xDQNFC/wcTYdrWo1lnRhmagQ==}
+    peerDependencies:
+      react: '>=16'
+    dependencies:
+      '@iconify/types': 2.0.0
+      react: 18.2.0
+    dev: false
+
+  /@iconify/types@2.0.0:
+    resolution: {integrity: sha512-+wluvCrRhXrhyOmRDJ3q8mux9JkKy5SJ/v8ol2tu4FVjyYvtEzkc/3pK15ET6RKg4b4w4BmTk1+gsCUhf21Ykg==}
+    dev: false
 
   /@jridgewell/gen-mapping@0.3.5:
     resolution: {integrity: sha512-IzL8ZoEDIBRWEzlCcRhOaCupYyN5gdIK+Q6fbFdPDg6HqX6jpkItn7DFIpW9LQzXG6Df9sA7+OKnq0qlz/GaQg==}
