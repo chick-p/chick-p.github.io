@@ -6,6 +6,14 @@
   --accent-gradient: linear-gradient(90deg, #4158d0, #ef3d81 80%);
 }
 
+@media (prefers-color-scheme: dark) {
+  :root {
+    --primary-text: #a6adbb;
+    --primary-bg: #1d222a;
+    --secondary-text: #a6adbb;
+  }
+}
+
 html {
   font-size: 16px;
   font-family: system-ui, sans-serif;
@@ -58,3 +66,8 @@ h2 {
   -webkit-text-fill-color: transparent;
 }
 
+@media (prefers-color-scheme: dark) {
+  .title-gradient {
+    filter: invert(1) hue-rotate(180deg);
+  }
+}
