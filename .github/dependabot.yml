@@ -17,7 +17,14 @@ updates:
     assignees:
       - "chick-p"
     groups:
-      astro:
+      nextjs:
         patterns:
-          - "astro"
-          - "@astrojs/*"
+          - "next"
+          - "@next/*"
+      react:
+        patterns:
+          - "react"
+          - "react-dom"
+      mdxjs:
+        patterns:
+          - "@mdx-js/*"
