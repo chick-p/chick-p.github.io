@@ -1,0 +1,73 @@
+:root {
+  --primary-text: #545a64;
+  --primary-bg: #f6f6f6;
+  --secondary-text: #2b3540;
+  --accent: 124, 58, 237;
+  --accent-gradient: linear-gradient(90deg, #4158d0, #ef3d81 80%);
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --primary-text: #a6adbb;
+    --primary-bg: #1d222a;
+    --secondary-text: #a6adbb;
+  }
+}
+
+html {
+  font-size: 16px;
+  font-family: system-ui, sans-serif;
+  height: 100%;
+}
+
+body {
+  color: var(--primary-text);
+  background-color: var(--primary-bg);
+  height: 100%;
+}
+
+a {
+  color: var(--primary-text);
+  font-weight: 600;
+}
+
+h1 {
+  color: var(--secondary-text);
+  font-size: 3rem;
+  font-weight: 800;
+  margin: 0;
+}
+
+h2 {
+  color: var(--secondary-text);
+  font-size: 1.75rem;
+  font-weight: 700;
+  margin: 0;
+}
+
+.main {
+  margin: auto;
+  padding: 1rem;
+  max-width: 60ch;
+
+  * + * {
+    margin-top: 1.5rem;
+  }
+
+  li:not([class]) + li:not([class]) {
+    margin-top: 0.5rem;
+  }
+}
+
+.title-gradient {
+  background: var(--accent-gradient);
+  background: -webkit-linear-gradient(0deg, #4158d0, #ef3d81 30%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+@media (prefers-color-scheme: dark) {
+  .title-gradient {
+    filter: invert(1) hue-rotate(180deg);
+  }
+}
