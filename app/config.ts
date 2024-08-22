@@ -25,6 +25,6 @@ export const Config = {
       id: "twitter",
       icon: "fa6-brands:x-twitter",
       url: "https://twitter.com/_chick_p",
-    }
-  ]
-}
+    },
+  ],
+};

@@ -1,4 +1,4 @@
-import Markdown from "./contents/home.mdx"
+import Markdown from "./contents/home.mdx";
 import { Config } from "./config";
 
 export default function Home() {
@@ -7,5 +7,5 @@ export default function Home() {
       <h1 className="title-gradient">{Config.site.title}</h1>
       <Markdown />
     </main>
-  )
+  );
 }

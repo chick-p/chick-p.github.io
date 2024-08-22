@@ -2,14 +2,13 @@ import Image from "next/image";
 import Link from "next/link";
 import { Icon } from "@iconify/react";
 
-
 import nextConfig from "../../next.config.mjs";
 const BASE_PATH = nextConfig.basePath || "";
 
 import style from "../styles/bio.module.scss";
 import { Config } from "../config";
 
-function BioAuthor({author}) {
+function BioAuthor({ author }) {
   return (
     <div>
       <div className={style.author__name}>{author.name}</div>

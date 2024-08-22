@@ -1,4 +1,4 @@
-import './styles/global.scss';
+import "./styles/global.scss";
 
 import { Config } from "./config";
 
@@ -21,9 +21,7 @@ export default function RootLayout(props: React.PropsWithChildren) {
         <link rel="icon" type="image/svg+xml" href="/favicon.ico" />
         <title>{Config.site.title}</title>
       </head>
-      <body>
-        {props.children}
-      </body>
+      <body>{props.children}</body>
     </html>
   );
 }
