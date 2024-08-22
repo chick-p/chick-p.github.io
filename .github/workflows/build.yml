@@ -23,6 +23,6 @@ jobs:
         env:
           CI: true
 
-      - name: Run Lint
+      - name: Run Build
         run: |
           pnpm run build
