@@ -28,3 +28,9 @@ updates:
       mdxjs:
         patterns:
           - "@mdx-js/*"
+      eslint:
+        patterns:
+          - "eslint"
+          - "eslint-config-*"
+          - "prettier"
+          - "typescript-eslint"
