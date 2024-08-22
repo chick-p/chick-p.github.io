@@ -2,6 +2,10 @@ import Image from "next/image";
 import Link from "next/link";
 import { Icon } from "@iconify/react";
 
+
+import nextConfig from "../../next.config.mjs";
+const BASE_PATH = nextConfig.basePath || "";
+
 import style from "../styles/bio.module.scss";
 import { Config } from "../config";
 
@@ -42,7 +46,7 @@ export default function Profile() {
   return (
     <div className={style.container}>
       <Image
-        src="/profile.png"
+        src={`${BASE_PATH}/profile.png`}
         width={75}
         height={75}
         alt={Config.author.name}
