@@ -1,3 +1,5 @@
+import './styles/global.scss';
+
 import { Config } from "./config";
 
 export default function RootLayout(props: React.PropsWithChildren) {
