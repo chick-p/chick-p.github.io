@@ -6,6 +6,12 @@
   "scripts": {
     "build": "next build",
     "dev": "next dev",
+    "lint": "run-p lint:*",
+    "lint:eslint": "eslint .",
+    "lint:prettier": "prettier --check .",
+    "fix": "run-s fix:*",
+    "fix:eslint": "pnpm run lint:eslint",
+    "fix:prettier": "prettier -w .",
     "start": "next start"
   },
   "dependencies": {
