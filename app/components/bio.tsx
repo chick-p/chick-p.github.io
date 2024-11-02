@@ -2,7 +2,7 @@ import Image from "next/image";
 import Link from "next/link";
 import { Icon } from "@iconify/react";
 
-import nextConfig from "../../next.config.mjs";
+import nextConfig from "../../next.config";
 const BASE_PATH = nextConfig.basePath || "";
 
 import style from "../styles/bio.module.scss";
