@@ -1,8 +1,17 @@
-import "./styles/global.scss";
+import type { Metadata } from "next";
+import "@/styles/global.css";
+import { config } from "@/config";
 
-import { Config } from "./config";
+export const metadata: Metadata = {
+  title: config.site.title,
+  description: config.site.description,
+};
 
-export default function RootLayout(props: React.PropsWithChildren) {
+export default function RootLayout({
+  children,
+}: Readonly<{
+  children: React.ReactNode;
+}>) {
   return (
     <html lang="ja">
       <head>
@@ -11,17 +20,17 @@ export default function RootLayout(props: React.PropsWithChildren) {
         <meta
           data-hid="og:site_name"
           property="og:site_name"
-          content={Config.site.title}
+          content={config.site.title}
         />
-        <meta property="og:title" content={Config.site.title} />
-        <meta name="og:description" content={Config.site.description} />
+        <meta property="og:title" content={config.site.title} />
+        <meta name="og:description" content={config.site.description} />
         <meta data-hid="og:type" property="og:type" content="website" />
-        <meta property="og:image" content={Config.site.image} />
-        <meta property="og:url" content={Config.site.url} />
+        <meta property="og:image" content={config.site.image} />
+        <meta property="og:url" content={config.site.url} />
         <link rel="icon" type="image/svg+xml" href="/favicon.ico" />
-        <title>{Config.site.title}</title>
+        <title>{config.site.title}</title>
       </head>
-      <body>{props.children}</body>
+      <body>{children}</body>
     </html>
   );
 }

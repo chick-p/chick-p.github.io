@@ -2,13 +2,12 @@ import Image from "next/image";
 import Link from "next/link";
 import { Icon } from "@iconify/react";
 
-import nextConfig from "../../next.config.mjs";
-const BASE_PATH = nextConfig.basePath || "";
+import type { Author, Media } from "@/config";
+import { config } from "@/config";
 
-import style from "../styles/bio.module.scss";
-import { Config } from "../config";
+import style from "@/styles/bio.module.css";
 
-function BioAuthor({ author }) {
+function BioAuthor({ author }: { author: Author }) {
   return (
     <div>
       <div className={style.author__name}>{author.name}</div>
@@ -17,15 +16,7 @@ function BioAuthor({ author }) {
   );
 }
 
-function BioLink({
-  items,
-}: {
-  items: Array<{
-    id: string;
-    icon: string;
-    url: string;
-  }>;
-}) {
+function BioLink({ items }: { items: Array<Media> }) {
   return (
     <div className={style.link__container}>
       <ul className={style.link__list}>
@@ -41,18 +32,18 @@ function BioLink({
   );
 }
 
-export default function Profile() {
+export default function Bio() {
   return (
     <div className={style.container}>
       <Image
-        src={`${BASE_PATH}/profile.png`}
+        src={`/profile.png`}
         width={75}
         height={75}
-        alt={Config.author.name}
+        alt={config.author.name}
       />
       <div className={style.author__container}>
-        <BioAuthor author={Config.author} />
-        <BioLink items={Config.media} />
+        <BioAuthor author={config.author} />
+        <BioLink items={config.media} />
       </div>
     </div>
   );

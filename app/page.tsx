@@ -1,11 +1,13 @@
-import Markdown from "./contents/home.mdx";
-import { Config } from "./config";
+import Home from "@/content/home.mdx";
+import { config } from "@/config";
 
-export default function Home() {
+export default function Page() {
   return (
-    <main className="main">
-      <h1 className="title-gradient">{Config.site.title}</h1>
-      <Markdown />
-    </main>
+    <div>
+      <main className="main">
+        <h1 className="title-gradient">{config.site.title}</h1>
+        <Home />
+      </main>
+    </div>
   );
 }
