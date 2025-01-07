@@ -1,0 +1,37 @@
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem 5%;
+  align-items: flex-start;
+}
+
+.author__container {
+  margin-top: 0;
+}
+
+.author__name {
+  font-weight: 600;
+}
+
+.author__role {
+  margin-top: 0.5rem;
+}
+
+.link__container {
+  margin-top: 1rem;
+}
+
+.link__list {
+  display: flex;
+  align-items: flex-start;
+  gap: 1rem;
+  padding: 0;
+}
+.link__list__item {
+  font-size: 1.5em;
+  list-style: none;
+}
+
+.link__list li + li {
+  margin-top: 0;
+}

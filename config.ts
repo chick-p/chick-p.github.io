@@ -1,4 +1,29 @@
-export const Config = {
+type Site = {
+  title: string;
+  description: string;
+  url: string;
+  image: string;
+};
+
+export type Author = {
+  name: string;
+  role: string;
+  description: string;
+};
+
+export type Media = {
+  id: string;
+  icon: string;
+  url: string;
+};
+
+export type Config = {
+  site: Site;
+  author: Author;
+  media: Array<Media>;
+};
+
+export const config: Config = {
   site: {
     title: "chick-p.work",
     description: "ポートフォリオサイト",
