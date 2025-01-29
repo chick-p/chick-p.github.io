@@ -2,6 +2,8 @@ import type { Metadata } from "next";
 import "@/styles/global.css";
 import { config } from "@/config";
 
+import "zenn-content-css";
+
 export const metadata: Metadata = {
   title: config.site.title,
   description: config.site.description,
