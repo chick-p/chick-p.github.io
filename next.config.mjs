@@ -1,8 +1,8 @@
 import createMDX from "@next/mdx";
 import rehypePrism from "rehype-prism";
 
-import 'prismjs/components/prism-toml.js';
-import 'prismjs/components/prism-bash.js';
+import "prismjs/components/prism-toml.js";
+import "prismjs/components/prism-bash.js";
 
 /** @type {import('next').NextConfig} */
 const nextConfig = {
