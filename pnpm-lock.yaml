@@ -9,8 +9,8 @@ importers:
   .:
     dependencies:
       '@iconify/react':
-        specifier: ^5.2.0
-        version: 5.2.0(react@19.2.0)
+        specifier: ^6.0.2
+        version: 6.0.2(react@19.2.0)
       '@mdx-js/loader':
         specifier: ^3.1.1
         version: 3.1.1(webpack@5.97.1)
@@ -151,8 +151,8 @@ packages:
     resolution: {integrity: sha512-bV0Tgo9K4hfPCek+aMAn81RppFKv2ySDQeMoSZuvTASywNTnVJCArCZE2FWqpvIatKu7VMRLWlR1EazvVhDyhQ==}
     engines: {node: '>=18.18'}
 
-  '@iconify/react@5.2.0':
-    resolution: {integrity: sha512-7Sdjrqq3fkkQNks9SY3adGC37NQTHsBJL2PRKlQd455PoDi9s+Es9AUTY+vGLFOYs5yO9w9yCE42pmxCwG26WA==}
+  '@iconify/react@6.0.2':
+    resolution: {integrity: sha512-SMmC2sactfpJD427WJEDN6PMyznTFMhByK9yLW0gOTtnjzzbsi/Ke/XqsumsavFPwNiXs8jSiYeZTmLCLwO+Fg==}
     peerDependencies:
       react: '>=16'
 
@@ -2582,7 +2582,7 @@ snapshots:
 
   '@humanwhocodes/retry@0.4.3': {}
 
-  '@iconify/react@5.2.0(react@19.2.0)':
+  '@iconify/react@6.0.2(react@19.2.0)':
     dependencies:
       '@iconify/types': 2.0.0
       react: 19.2.0
