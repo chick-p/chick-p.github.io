@@ -17,6 +17,7 @@ updates:
         patterns:
           - "next"
           - "@next/*"
+          - "eslint-config-next"
       react:
         patterns:
           - "react"
