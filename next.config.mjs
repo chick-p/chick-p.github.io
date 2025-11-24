@@ -13,8 +13,7 @@ const nextConfig = {
 };
 
 const withMDX = createMDX({
-  options: {
-    extension: /\.mdx?$/,
+  mdxOptions: {
     rehypePlugins: [rehypePrism],
   },
 });
