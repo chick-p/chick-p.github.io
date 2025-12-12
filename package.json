@@ -20,8 +20,8 @@
     "@next/mdx": "^16.0.7",
     "@types/mdx": "^2.0.13",
     "next": "16.0.9",
-    "react": "^19.2.0",
-    "react-dom": "^19.2.0"
+    "react": "^19.2.1",
+    "react-dom": "^19.2.1"
   },
   "devDependencies": {
     "@eslint/eslintrc": "^3",
