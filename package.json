@@ -39,6 +39,6 @@
     "rehype-prism": "^2.3.3",
     "typescript": "5.9.3",
     "typescript-eslint": "^8.52.0",
-    "zenn-content-css": "^0.2.11"
+    "zenn-content-css": "^0.3.0"
   }
 }
