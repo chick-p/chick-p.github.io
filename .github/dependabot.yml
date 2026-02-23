@@ -31,6 +31,7 @@ updates:
           - "@mdx-js/*"
       eslint:
         patterns:
+          - "@eslint/*"
           - "eslint"
           - "eslint-config-*"
           - "prettier"
