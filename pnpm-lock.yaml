@@ -79,8 +79,8 @@ importers:
         specifier: ^8.57.2
         version: 8.57.2(eslint@10.1.0)(typescript@5.9.3)
       zenn-content-css:
-        specifier: ^0.4.6
-        version: 0.4.6
+        specifier: ^0.4.7
+        version: 0.4.7
 
 packages:
 
@@ -2287,8 +2287,8 @@ packages:
     resolution: {integrity: sha512-rVksvsnNCdJ/ohGc6xgPwyN8eheCxsiLM8mxuE/t/mOVqJewPuO1miLpTHQiRgTKCLexL4MeAFVagts7HmNZ2Q==}
     engines: {node: '>=10'}
 
-  zenn-content-css@0.4.6:
-    resolution: {integrity: sha512-SpfkwXFHw/MV2T7+6gb0/kVB49rjIAqivadp/wwg+dXxrQzcQ8BVO7NIn6vceCp99r6JZ4u36z0VBQf2/QVrHQ==}
+  zenn-content-css@0.4.7:
+    resolution: {integrity: sha512-ggp9wFQkaou8HYfjgH8vhYgZELqx1EeQG6oZgaOaVpBGxm72+0goS4WHMe0gP+OZtUfI3TlXECuKEdwJ3XPhzg==}
 
   zod-validation-error@4.0.2:
     resolution: {integrity: sha512-Q6/nZLe6jxuU80qb/4uJ4t5v2VEZ44lzQjPDhYJNztRQ4wyWc6VF3D3Kb/fAuPetZQnhS3hnajCf9CsWesghLQ==}
@@ -3336,7 +3336,7 @@ snapshots:
       '@next/eslint-plugin-next': 16.2.1
       eslint: 10.1.0
       eslint-import-resolver-node: 0.3.9
-      eslint-import-resolver-typescript: 3.10.1(eslint-plugin-import@2.32.0(@typescript-eslint/parser@8.57.2(eslint@10.1.0)(typescript@5.9.3))(eslint@10.1.0))(eslint@10.1.0)
+      eslint-import-resolver-typescript: 3.10.1(eslint-plugin-import@2.32.0)(eslint@10.1.0)
       eslint-plugin-import: 2.32.0(@typescript-eslint/parser@8.57.2(eslint@10.1.0)(typescript@5.9.3))(eslint-import-resolver-typescript@3.10.1)(eslint@10.1.0)
       eslint-plugin-jsx-a11y: 6.10.2(eslint@10.1.0)
       eslint-plugin-react: 7.37.5(eslint@10.1.0)
@@ -3363,7 +3363,7 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  eslint-import-resolver-typescript@3.10.1(eslint-plugin-import@2.32.0(@typescript-eslint/parser@8.57.2(eslint@10.1.0)(typescript@5.9.3))(eslint@10.1.0))(eslint@10.1.0):
+  eslint-import-resolver-typescript@3.10.1(eslint-plugin-import@2.32.0)(eslint@10.1.0):
     dependencies:
       '@nolyfill/is-core-module': 1.0.39
       debug: 4.4.3
@@ -3378,14 +3378,14 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  eslint-module-utils@2.12.1(@typescript-eslint/parser@8.57.2(eslint@10.1.0)(typescript@5.9.3))(eslint-import-resolver-node@0.3.9)(eslint-import-resolver-typescript@3.10.1(eslint-plugin-import@2.32.0(@typescript-eslint/parser@8.57.2(eslint@10.1.0)(typescript@5.9.3))(eslint@10.1.0))(eslint@10.1.0))(eslint@10.1.0):
+  eslint-module-utils@2.12.1(@typescript-eslint/parser@8.57.2(eslint@10.1.0)(typescript@5.9.3))(eslint-import-resolver-node@0.3.9)(eslint-import-resolver-typescript@3.10.1)(eslint@10.1.0):
     dependencies:
       debug: 3.2.7
     optionalDependencies:
       '@typescript-eslint/parser': 8.57.2(eslint@10.1.0)(typescript@5.9.3)
       eslint: 10.1.0
       eslint-import-resolver-node: 0.3.9
-      eslint-import-resolver-typescript: 3.10.1(eslint-plugin-import@2.32.0(@typescript-eslint/parser@8.57.2(eslint@10.1.0)(typescript@5.9.3))(eslint@10.1.0))(eslint@10.1.0)
+      eslint-import-resolver-typescript: 3.10.1(eslint-plugin-import@2.32.0)(eslint@10.1.0)
     transitivePeerDependencies:
       - supports-color
 
@@ -3400,7 +3400,7 @@ snapshots:
       doctrine: 2.1.0
       eslint: 10.1.0
       eslint-import-resolver-node: 0.3.9
-      eslint-module-utils: 2.12.1(@typescript-eslint/parser@8.57.2(eslint@10.1.0)(typescript@5.9.3))(eslint-import-resolver-node@0.3.9)(eslint-import-resolver-typescript@3.10.1(eslint-plugin-import@2.32.0(@typescript-eslint/parser@8.57.2(eslint@10.1.0)(typescript@5.9.3))(eslint@10.1.0))(eslint@10.1.0))(eslint@10.1.0)
+      eslint-module-utils: 2.12.1(@typescript-eslint/parser@8.57.2(eslint@10.1.0)(typescript@5.9.3))(eslint-import-resolver-node@0.3.9)(eslint-import-resolver-typescript@3.10.1)(eslint@10.1.0)
       hasown: 2.0.2
       is-core-module: 2.16.1
       is-glob: 4.0.3
@@ -5107,7 +5107,7 @@ snapshots:
 
   yocto-queue@0.1.0: {}
 
-  zenn-content-css@0.4.6: {}
+  zenn-content-css@0.4.7: {}
 
   zod-validation-error@4.0.2(zod@4.3.6):
     dependencies:
