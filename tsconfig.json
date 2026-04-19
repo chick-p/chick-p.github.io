@@ -8,9 +8,11 @@
     "incremental": true,
     "module": "esnext",
     "esModuleInterop": true,
-    "moduleResolution": "node",
+    "moduleResolution": "bundler",
     "resolveJsonModule": true,
     "isolatedModules": true,
+    "noUncheckedSideEffectImports": false,
+    "allowArbitraryExtensions": true,
     "jsx": "react-jsx",
     "plugins": [
       {
