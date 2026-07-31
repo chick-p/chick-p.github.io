@@ -30,16 +30,16 @@
     "@types/node": "^24.13.3",
     "@types/react": "^19",
     "@types/react-dom": "^19",
-    "eslint": "^10.7.0",
+    "eslint": "^10.8.0",
     "eslint-config-next": "^16.2.12",
     "eslint-config-prettier": "^10.1.8",
     "npm-run-all2": "^9.0.2",
-    "prettier": "^3.9.5",
+    "prettier": "^3.9.6",
     "prism-themes": "^1.9.0",
     "prismjs": "^1.30.0",
     "rehype-prism": "^2.3.3",
     "typescript": "6.0.3",
-    "typescript-eslint": "^8.64.0",
+    "typescript-eslint": "^8.65.0",
     "zenn-content-css": "^0.5.2"
   }
 }
