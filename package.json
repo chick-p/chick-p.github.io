@@ -33,7 +33,7 @@
     "eslint": "^10.13.0",
     "eslint-config-next": "^16.4.1",
     "eslint-config-prettier": "^10.1.8",
-    "npm-run-all2": "^9.0.3",
+    "npm-run-all2": "^9.0.4",
     "prettier": "^3.9.10",
     "prism-themes": "^1.9.0",
     "prismjs": "^1.30.0",
