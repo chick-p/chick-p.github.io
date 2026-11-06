@@ -79,8 +79,8 @@ importers:
         specifier: ^8.72.1
         version: 8.72.1(eslint@10.14.0)(typescript@6.0.3)
       zenn-content-css:
-        specifier: ^0.5.8
-        version: 0.5.8
+        specifier: ^0.5.13
+        version: 0.5.13
 
 packages:
 
@@ -2395,8 +2395,8 @@ packages:
     resolution: {integrity: sha512-rVksvsnNCdJ/ohGc6xgPwyN8eheCxsiLM8mxuE/t/mOVqJewPuO1miLpTHQiRgTKCLexL4MeAFVagts7HmNZ2Q==}
     engines: {node: '>=10'}
 
-  zenn-content-css@0.5.8:
-    resolution: {integrity: sha512-W/heluGjchRPSzV5dpbUAZKKkKkUhgBCw8YS+V76lOkL9zdtrAq55CYkkJ4zEl3h/IROHS7wLxyuc7q+ghtMGw==}
+  zenn-content-css@0.5.13:
+    resolution: {integrity: sha512-8K8+h9s3QIgXhGAYB2ZlAg+QW0dRJ6wFPhuNuzq3YVKCrAf4JWBgzoWxGr+RwfUzEqmA8m3mQ1K+U2fsq+UUmg==}
 
   zod-validation-error@4.0.2:
     resolution: {integrity: sha512-Q6/nZLe6jxuU80qb/4uJ4t5v2VEZ44lzQjPDhYJNztRQ4wyWc6VF3D3Kb/fAuPetZQnhS3hnajCf9CsWesghLQ==}
@@ -5308,7 +5308,7 @@ snapshots:
 
   yocto-queue@0.1.0: {}
 
-  zenn-content-css@0.5.8: {}
+  zenn-content-css@0.5.13: {}
 
   zod-validation-error@4.0.2(zod@4.6.7):
     dependencies:
