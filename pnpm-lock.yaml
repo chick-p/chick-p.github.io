@@ -79,8 +79,8 @@ importers:
         specifier: ^8.72.1
         version: 8.72.1(eslint@10.14.0)(typescript@6.0.3)
       zenn-content-css:
-        specifier: ^0.5.13
-        version: 0.5.13
+        specifier: ^0.5.14
+        version: 0.5.14
 
 packages:
 
@@ -2352,6 +2352,9 @@ packages:
   vfile-message@4.0.3:
     resolution: {integrity: sha512-QTHzsGd1EhbZs4AsQ20JX1rC3cOlt/IWJruk893DfLRr57lcnOeMaWG4K0JrRta4mIJZKth2Au3mM3u03/JWKw==}
 
+  vfile-message@4.0.4:
+    resolution: {integrity: sha512-66ycRswIkNmHH9PHku7ADtv5RVwgIrOcuv3J8Svz6h4qgGRrKVa+9/neuKyJZUXyOpYwLTvS+whZ4R2urHHgQg==}
+
   vfile@6.0.3:
     resolution: {integrity: sha512-KzIbH/9tXat2u30jf+smMwFCsno4wHVdNmzFyL+T/L3UGqqk6JKfVqOFOZEpZSHADH1k40ab6NUIXZq422ov3Q==}
 
@@ -2395,8 +2398,8 @@ packages:
     resolution: {integrity: sha512-rVksvsnNCdJ/ohGc6xgPwyN8eheCxsiLM8mxuE/t/mOVqJewPuO1miLpTHQiRgTKCLexL4MeAFVagts7HmNZ2Q==}
     engines: {node: '>=10'}
 
-  zenn-content-css@0.5.13:
-    resolution: {integrity: sha512-8K8+h9s3QIgXhGAYB2ZlAg+QW0dRJ6wFPhuNuzq3YVKCrAf4JWBgzoWxGr+RwfUzEqmA8m3mQ1K+U2fsq+UUmg==}
+  zenn-content-css@0.5.14:
+    resolution: {integrity: sha512-NFA/gevUL+sBnBAaJ4m8qf8BCq6eBkrst9DcsX2BQjEC6BIz442VZQojH+o/Ks3MVEgOaKksYyLutVFhaV+vpg==}
 
   zod-validation-error@4.0.2:
     resolution: {integrity: sha512-Q6/nZLe6jxuU80qb/4uJ4t5v2VEZ44lzQjPDhYJNztRQ4wyWc6VF3D3Kb/fAuPetZQnhS3hnajCf9CsWesghLQ==}
@@ -5246,10 +5249,15 @@ snapshots:
       '@types/unist': 3.0.3
       unist-util-stringify-position: 4.0.0
 
+  vfile-message@4.0.4:
+    dependencies:
+      '@types/unist': 3.0.3
+      unist-util-stringify-position: 4.0.0
+
   vfile@6.0.3:
     dependencies:
       '@types/unist': 3.0.3
-      vfile-message: 4.0.3
+      vfile-message: 4.0.4
 
   web-namespaces@2.0.1: {}
 
@@ -5308,7 +5316,7 @@ snapshots:
 
   yocto-queue@0.1.0: {}
 
-  zenn-content-css@0.5.13: {}
+  zenn-content-css@0.5.14: {}
 
   zod-validation-error@4.0.2(zod@4.6.7):
     dependencies:
